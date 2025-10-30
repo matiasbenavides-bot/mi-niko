@@ -1,0 +1,54 @@
+/* Estilo de carta elegante */
+body {
+  background-color: #f9e6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Georgia', serif;
+  padding: 20px;
+}
+
+.carta-contenedor {
+  background-color: #fff0f8;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  padding: 40px 30px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  line-height: 1.6;
+  animation: entrada 1s ease-out;
+}
+
+h1 {
+  color: #a00084;
+  margin-bottom: 20px;
+text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+  white-space: pre-line; /* Mantiene saltos de línea */
+  font-size: 18px;
+  color: #800060;
+}
+
+a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ff1493;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+a:hover {
+  transform: scale(1.05);
+  background-color: #c70070;
+}
