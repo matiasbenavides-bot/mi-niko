@@ -1,10 +1,10 @@
-// 💞 Fecha en que comenzaron
+
 const fechaInicio = new Date("2025-02-04");
 
-// 💕 Fecha del próximo reencuentro
+
 const fechaEncuentro = new Date("2027-11-01");
 
-// 💖 Función que actualiza ambos contadores
+
 function actualizarContadores() {
   const ahora = new Date();
 
@@ -62,4 +62,5 @@ form.addEventListener("submit", async (e) => {
   }
 
 });
+
 
