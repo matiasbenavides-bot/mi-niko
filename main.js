@@ -14,6 +14,8 @@ function actualizarContadores() {
   const años = Math.floor(dias / 365);
   const meses = Math.floor((dias % 365) / 30);
   const diasRestantes = dias - (años * 365) - (meses * 30);
+  const minutos = Math.floor((diasRestantes / (1000 * 60)) % 60);
+    const segundos = Math.floor((tiempojuntos/ 1000) % 60);
 
   document.getElementById("tiempoJuntos").innerText =
     `Llevamos juntos: ${años} años, ${meses} meses y ${diasRestantes} días 💖`;
@@ -60,4 +62,5 @@ form.addEventListener("submit", async (e) => {
   } else {
     alert("Ups! Algo salió mal. Intenta de nuevo.");
   }
+
 });
