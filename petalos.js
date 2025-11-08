@@ -42,7 +42,7 @@ class Petalo {
     ctx.translate(this.x, this.y);
     ctx.rotate(Math.sin(this.angle) * 0.5);
     
-    // 🌸 forma del pétalo con BezierCurve
+    // forma del pétalo con BezierCurve
     ctx.beginPath();
     ctx.moveTo(0, 0);
     ctx.bezierCurveTo(
@@ -90,5 +90,6 @@ let alpha = 0;
   ctx.textAlign = "center";
   ctx.fillText("Primavera en el aire", canvas.width / 2, textoY);
   ctx.restore();
+
 
  
